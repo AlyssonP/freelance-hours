@@ -11,7 +11,8 @@ class Proposal extends Model
     use HasFactory;
 
     protected $fillable = [
-        'email',
-        'hours',
+        "email",
+        "hours",
+        "position_status",
     ];
 }
