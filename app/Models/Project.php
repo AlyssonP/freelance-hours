@@ -21,7 +21,7 @@ class Project extends Model
     }
 
     public function author(){
-        return $this->belongsTo(User::class, "created_by");
+        return $this->belongsTo(User::class, 'created_by');
     }
 
     public function proposals() {
